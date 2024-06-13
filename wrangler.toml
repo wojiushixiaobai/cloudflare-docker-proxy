@@ -1,7 +1,10 @@
-name = "cloudflare-docker-proxy"
+name = "docker-proxy"
+type = "webpack"
+account_id = "your account_id"
 workers_dev = true
 main = "src/index.js"
 compatibility_date = "2021-12-07"
+webpack_config = "webpack.config.js"
 
 [dev]
 ip = "0.0.0.0"
